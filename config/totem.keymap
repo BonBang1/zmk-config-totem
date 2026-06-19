@@ -43,9 +43,9 @@
 
         NavigattionLayer {
             bindings = <
-        &trans        &trans        &trans     &trans          &trans    &kp LC(Y)   &kp LC(V)       &kp LC(C)       &kp LC(X)      &kp LC(Z)
-        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp CAPS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW
-&trans  &trans        &trans        &trans     &trans          &trans    &kp INSERT  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &trans
+        &trans        &trans        &trans     &trans          &trans    &kp LC(Y)   &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp LC(Z)
+        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp CAPS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
+&trans  &trans        &trans        &trans     &trans          &trans    &kp INSERT  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
                                     &trans     &trans          &trans    &trans      &trans          &trans
             >;
         };
