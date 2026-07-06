@@ -35,6 +35,7 @@
 
 &pro_micro_i2c {
     status = "okay";
+    clock-frequency = <100000>;
 
     oled: sh1106@3c {
         compatible = "sinowealth,sh1106";
