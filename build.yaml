@@ -20,8 +20,8 @@
 
 include:
   - board: nice_nano//zmk
-    shield: totem_dongle
-    artifact-name: totem_dongle
+    shield: totem_dongle dongle_display
+    artifact-name: totem_dongle_display
 
   - board: xiao_ble//zmk
     shield: totem_left
