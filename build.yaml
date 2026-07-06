@@ -17,12 +17,10 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
----
----
+
 include:
-  - board: xiao_ble//zmk
+  - board: nice_nano//zmk
     shield: totem_dongle
-    snippet: studio-rpc-usb-uart
     artifact-name: totem_dongle
 
   - board: xiao_ble//zmk
@@ -35,7 +33,10 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: totem_right_peripheral
 
+  - board: nice_nano//zmk
+    shield: settings_reset
+    artifact-name: settings_reset_nice_nano
+
   - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: settings_reset_xiao_ble
-# there is no settingsreset (needed) for the XIAO
